@@ -1,0 +1,19 @@
+{
+    "name": "taymaz/scode",
+    "description": "receipt Security code in custom type",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Taymaz\\Scode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "taymazmostafaei",
+            "email": "taymazmostafaei3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
