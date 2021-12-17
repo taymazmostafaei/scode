@@ -22,7 +22,7 @@ class DataMan
     {
         $size = $this->data['size'];
         $code = (string)$this->code;
-        $ResizedCode = (int)substr($code, 0, $size);
+        $ResizedCode = substr($code, 0, $size);
         $this->code = $ResizedCode;
     }
     public function PrefixCode()

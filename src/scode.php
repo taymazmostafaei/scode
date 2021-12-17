@@ -21,6 +21,11 @@ class Scode
         self::$type = 'text';
         return new static;
     }
+    public static function prefix(string $prefix)
+    {
+        self::$prefix = $prefix;
+        return new static;
+    }
     public static function size(int $size)
     {
         self::$size = $size;
@@ -37,3 +42,4 @@ class Scode
         ));
     }
 }
+
