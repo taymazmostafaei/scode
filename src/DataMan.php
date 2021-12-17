@@ -4,6 +4,14 @@ namespace Taymaz\Scode;
 
 use Taymaz\Scode\CodeProduction;
 
+/**
+ * Control and generate code class
+ * 
+ * @package    Scode
+ * @subpackage Taymaz
+ * @author     Taymaz mostafaei <taymazmostafaei3@gmail.com>
+ */
+
 class DataMan
 {
     private $data;

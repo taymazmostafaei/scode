@@ -3,6 +3,7 @@
     "description": "receipt Security code in custom type",
     "type": "library",
     "license": "MIT",
+    "keywords": ["security code", "once time code", "Verification code"],
     "autoload": {
         "psr-4": {
             "Taymaz\\Scode\\": "src/"
