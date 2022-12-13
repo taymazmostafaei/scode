@@ -23,5 +23,10 @@ use Taymaz\Scode\Scode;
 ### then Add this code to get Verification code
 this code going to return pin code like : 8456
 ```sh
+Scode::pinCode()->apply();
+```
+
+####you can also get code with particular lentgh size :
+```sh
 Scode::pinCode()->size(4)->apply();
 ```
