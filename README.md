@@ -1,3 +1,8 @@
+[![Latest Stable Version](http://poser.pugx.org/taymaz/scode/v)](https://packagist.org/packages/taymaz/scode)
+[![Total Downloads](http://poser.pugx.org/taymaz/scode/downloads)](https://packagist.org/packages/taymaz/scode)
+[![Latest Unstable Version](http://poser.pugx.org/arcaptcha/arcaptcha-php/v/unstable)](https://packagist.org/packages/taymaz/scode) [![License](http://poser.pugx.org/taymaz/scode/license)](https://packagist.org/packages/taymaz/scode)
+[![PHP Version Require](http://poser.pugx.org/taymaz/scode/require/php)](https://packagist.org/packages/taymaz/scode)
+
 # scode
  receipt Security code in custom type
 get Verification code too easy with one line code
@@ -28,5 +33,5 @@ Scode::pinCode()->apply();
 
 you can also get code with particular lentgh size :
 ```sh
-Scode::pinCode()->size(4)->apply();
+Scode::pinCode()->size(6)->apply();
 ```
