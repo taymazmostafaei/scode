@@ -26,7 +26,7 @@ this code going to return pin code like : 8456
 Scode::pinCode()->apply();
 ```
 
-####you can also get code with particular lentgh size :
+you can also get code with particular lentgh size :
 ```sh
 Scode::pinCode()->size(4)->apply();
 ```
